@@ -10,18 +10,22 @@ public class CalculatorTest {
 
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
+		//execute before all test methods of the class are executed
 	}
 
 	@AfterClass
 	public static void tearDownAfterClass() throws Exception {
+		//execute after all test methods in the current class
 	}
 
 	@Before
 	public void setUp() throws Exception {
+		//execute before each test method
 	}
 
 	@After
 	public void tearDown() throws Exception {
+		//execute after each test method
 	}
 
 	@Test
